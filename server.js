@@ -20,6 +20,7 @@ async function fetchCallLogs() {
       from: "+14437376724",
       // startTimeAfter: new Date(startDate),
       // startTimeBefore: new Date(endDate),
+      status: "completed",
       limit: 200,
     });
 
